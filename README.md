@@ -7,7 +7,7 @@ Our project aims to investigate the impact of predictive analytics on student su
 
 ## Key Questions:
 1. How effective are predictive analytics models in identifying successful and at-risk student in post-secondary education, when looking at **non-academic performance related** demographic data as predictors? 'Successful' and 'at-risk' for our purposes are defined as likely to graduate or drop out, respectively. Factors we will look at:
-   - Students' parent background: Martital Status, Educational qualification, & Occupation
+   - Students' parent background: Martital status, educational qualification, & occupation
    - Student age at enrollment
    - Student Nationality
    - Unemployment & Inflation Rate at time of Student Enrollment
@@ -21,15 +21,6 @@ To conduct this analysis, we initially wanted to look at Canadian or US data, bu
 
 **Predict students' dropout and academic success** 
 - https://archive-beta.ics.uci.edu/dataset/697/predict+students+dropout+and+academic+success
-
-## Technologies and Tools:
-For this project, we will use the following technologies and tools:
-- Python with Scikit-learn for machine learning analysis.
-- Python Pandas for data manipulation.
-- Python Matplotlib for data visualization.
-- HTML/CSS/Bootstrap for creating a user-friendly dashboard.
-- GitHub for version control and collaboration.
-- Jupyter notebooks for data exploration and analysis.
 
 ## Project Milestones:
 ### 1. Data Collection and Cleaning:
@@ -51,3 +42,19 @@ For this project, we will use the following technologies and tools:
    - Test the dashboard to ensure functionality and user-friendliness:
      - Objective 11: Create an interactive dashboard showcasing project findings.
      - Objective 12: Test the dashboard to ensure functionality and usability.
+---
+
+## Conclusions
+
+### Parent background: Martital Status, Educational Qualifications, & Occupation
+Based on the analysis of various classification models, including Random Forest Classifier, Logistic Regression, Support Vector Machine (SVM), and Multi-layer Perceptron (MLP) Classifier, it can be concluded that while they have some efficacy as predictors, Marital Status, Mother's Qualification, Father's Qualification, Mother's Occupation, and Father's Occupation, are not strong enough predictors for achieving high accuracy in predicting student success.
+
+None of the models were able to achieve an accuracy above approximately 63%, which falls short of the acceptable 75% target accuracy. This suggests that our data on parents' background may not be sufficient to reliably predict the target variable or that other unconsidered factors may be influencing the outcome more significantly.
+
+In summary, based on the models tested, these particular features alone may not be highly effective predictors for the given classification task. Further feature engineering or the inclusion of additional relevant features may be necessary to improve prediction accuracy.
+
+### Student age at enrollment
+
+### Student Nationality
+
+### Unemployment & Inflation Rate at time of Student Enrollment
