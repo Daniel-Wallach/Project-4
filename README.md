@@ -3,20 +3,24 @@
 ## Analyzing the Impact of Predictive Analytics on Student Success in Post-Secondary Education
 
 ## Project Scope and Purpose:
-Our project aims to investigate the impact of predictive analytics on student success. Predictive analytics is increasingly being used in the education sector to identify at-risk students, optimize educational resources, and improve learning outcomes. However, it is essential to understand the societal implications of these practices.
+Our project aims to investigate the impact of predictive analytics on student success. Predictive analytics is increasingly being used in the education sector to identify at-risk students, optimize educational resources, and improve learning outcomes. However, it is essential to understand the efficacy of different student data as predictors and the the societal implications of setting education policy based on predictive analytisc.
 
 ## Key Questions:
-> [!NOTE]
-> REQUIRES REVISION
-1. How effective are predictive analytics models in identifying at-risk students?
+1. How effective are predictive analytics models in identifying successful and at-risk student in post-secondary education, when looking at **non-academic performance related** demographic data as predictors? 'Successful' and 'at-risk' for our purposes are defined as likely to graduate or drop out, respectively. Factors we will look at:
+   - Students' parent background: Martital Status, Educational qualification, & Occupation
+   - Student age at enrollment
+   - Student Nationality
+   - Unemployment & Inflation Rate at time of Student Enrollment
 
-2. What policy recommendations can be made to ensure the responsible use of predictive analytics in education?
+3. What policy recommendations can be made to ensure the responsible use of predictive analytics in education?
 
-3. What are the ethical considerations and potential biases associated with using predictive analytics in education?
+4. What are the ethical considerations and potential biases associated with using predictive analytics in education?
 
 ## Data Sources:
-To conduct this analysis, we will gather data from various sources, including:
-https://archive-beta.ics.uci.edu/dataset/697/predict+students+dropout+and+academic+success
+To conduct this analysis, we initially wanted to look at Canadian or US data, but found that student-centric data is generally not publically available. Therefore, we used a dataset from the **UC Irvine Machine Learning Repository** collected from institutions in Portugal:
+
+**Predict students' dropout and academic success** 
+- https://archive-beta.ics.uci.edu/dataset/697/predict+students+dropout+and+academic+success
 
 ## Technologies and Tools:
 For this project, we will use the following technologies and tools:
@@ -24,7 +28,6 @@ For this project, we will use the following technologies and tools:
 - Python Pandas for data manipulation.
 - Python Matplotlib for data visualization.
 - HTML/CSS/Bootstrap for creating a user-friendly dashboard.
-- SQL Database for storing and retrieving data.
 - GitHub for version control and collaboration.
 - Jupyter notebooks for data exploration and analysis.
 
@@ -33,33 +36,18 @@ For this project, we will use the following technologies and tools:
    - Acquire data from U Irvine
    - Perform data preprocessing, including handling missing values, removing duplicates, and standardizing data formats.
 ### 2. Exploratory Data Analysis (EDA):
-   - Explore student demographics, academic performance, and attendance patterns.
+   - Explore student demographic data
    - Create visualizations to understand trends and relationships within the data.
-   - Formulate hypotheses based on EDA findings:
-     > [!NOTE]
-     > REQUIRES REVISION
-     - Hypothesis 1: Students with higher socioeconomic status tend to have better academic performance.
-     - Hypothesis 2: There is a positive correlation between attendance rate and student GPA.
-     - Hypothesis 3: Academic performance follows a seasonal pattern, with better performance in certain semesters.
 ### 3. Predictive Analytics:
-   - Select relevant features from the dataset, including demographics, attendance, and historical academic performance.
+   - Select relevant features from the dataset
    - Choose machine learning models (e.g., logistic regression, decision trees) to predict student success and identify at-risk students.
    - Split data into training and testing sets, train models, and evaluate their performance:
      - Objective 1: Build predictive models that can classify students into categories such as "at-risk" and "not at-risk" based on historical data.
      - Objective 2: Evaluate the models' performance using appropriate metrics to assess their accuracy in identifying at-risk students.
      - Objective 3: Understand which features are most important in predicting student success and risk.
      - Objective 4: Investigate potential biases and ethical concerns in the predictive models.
-### 6. Policy Recommendations:
-   - Develop policy recommendations based on analysis findings:
-     - Objective 9: Develop policy recommendations addressing responsible use of predictive analytics in education, including transparency, data privacy, and model fairness.
-     - Objective 10: Document and provide a rationale for each recommendation.
-### 7. Dashboard Creation:
+### 4. Dashboard Creation:
    - Create an interactive dashboard using HTML/CSS/Bootstrap with JavaScript Plotly and Leaflet for data visualization.
    - Test the dashboard to ensure functionality and user-friendliness:
      - Objective 11: Create an interactive dashboard showcasing project findings.
      - Objective 12: Test the dashboard to ensure functionality and usability.
-
-## Presentation Day:
-On presentation day, we will provide a detailed walkthrough of our project, including data sources, analysis techniques, visualizations, policy recommendations, and the interactive dashboard. Each team member will submit the URL of our GitHub repository for grading.
-
-By following these detailed steps and objectives, we aim to provide a comprehensive analysis of the societal implications of predictive analytics in education, enabling informed decision-making and responsible usage of these tools.
