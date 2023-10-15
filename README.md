@@ -17,10 +17,7 @@ Our project aims to investigate the impact of predictive analytics on student su
 4. What are the ethical considerations and potential biases associated with using predictive analytics in education?
 
 ## Data Sources:
-To conduct this analysis, we initially wanted to look at Canadian or US data, but found that student-centric data is generally not publically available. Therefore, we used a dataset from the **UC Irvine Machine Learning Repository** collected from institutions in Portugal:
-
-**Predict students' dropout and academic success** 
-- https://archive-beta.ics.uci.edu/dataset/697/predict+students+dropout+and+academic+success
+To conduct this analysis, we initially wanted to look at Canadian or US data, but found that student-centric data is generally not publically available. Therefore, we used a dataset from the **UC Irvine Machine Learning Repository** collected from institutions in Portugal
 
 ## Project Milestones:
 ### 1. Data Collection and Cleaning:
@@ -58,3 +55,8 @@ In summary, based on the models tested, these particular features alone may not 
 ### Student Nationality
 
 ### Unemployment & Inflation Rate at time of Student Enrollment
+---
+## Data Sources
+
+**Predict students' dropout and academic success** 
+- https://archive-beta.ics.uci.edu/dataset/697/predict+students+dropout+and+academic+success
