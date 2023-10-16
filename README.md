@@ -53,7 +53,9 @@ In summary, based on the models tested, these particular features alone may not 
 ### Student age at enrollment
 
 ### Student Nationality
-
+   To conclude, in measuring the international and national background of a student against the target of outcome, graduation and dropout, there is a lack of correlation between the values with a p-value of 0.75. This tells an almost obvious but also important story that the national background of a student and their status, international or domestic, does not negatively or positively affect creating more graduates or dropouts. In creating the model using a decision tree for these values, there was difficulty in achieving an optimal or high accuracy score in isolating these features. The score achieved was only that of 0.47. The problem mainly comes from the data for nationality and international status being imbalanced data and the sample size for international and national students, as domestic students occupy the majority of the student body and foreign and international students make up a tiny percentage of students. 
+   
+The features of the nationality of students are not indicative of the model, but also, the features of the nationality of students are not indicative of ability and outcome.
 ### Unemployment & Inflation Rate at time of Student Enrollment
 ---
 ## Data Sources
